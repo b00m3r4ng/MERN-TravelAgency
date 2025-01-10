@@ -8,6 +8,7 @@ import heroVideo from "../assets/images/hero-video.mp4";
 import worldImg from "../assets/images/world.png";
 import Subtitle from "../shared/Subtitle.jsx";
 import SearchBar from "../shared/SearchBar.jsx";
+import ServiceList from "../services/ServiceList.jsx";
 
 const Home = () => {
   return (
@@ -59,6 +60,7 @@ const Home = () => {
               <h5 className="services__subtitle">What we serve</h5>
               <h2 className="services__title">We offer out best services</h2>
             </Col>
+            <ServiceList />
           </Row>
         </Container>
       </section>
