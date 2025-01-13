@@ -9,6 +9,7 @@ import worldImg from "../assets/images/world.png";
 import Subtitle from "../shared/Subtitle.jsx";
 import SearchBar from "../shared/SearchBar.jsx";
 import ServiceList from "../services/ServiceList.jsx";
+import FeaturedToursList from "../components/Featured-tours/FeaturedToursList.jsx";
 
 const Home = () => {
   return (
@@ -64,6 +65,19 @@ const Home = () => {
           </Row>
         </Container>
       </section>
+      {/* Featured Tours Start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12' className="mb-5">
+            <Subtitle subtitle={"Explore"} />
+            <h2 className="featured__tour-title">Our Featured Tours</h2>
+            </Col>
+            <FeaturedToursList />
+          </Row>
+        </Container>
+      </section>
+      {/* Featured Tours Start */}
     </>
   );
 };
