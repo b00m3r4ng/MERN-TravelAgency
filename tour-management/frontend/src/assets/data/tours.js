@@ -16,10 +16,10 @@ const tours = [
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+      // {
+      //   name: "jhon doe",
+      //   rating: 4.6,
+      // },
     ],
     avgRating: 4.5,
     photo: tourImg01,
@@ -34,10 +34,10 @@ const tours = [
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+      // {
+      //   name: "jhon doe",
+      //   rating: 4.6,
+      // },
     ],
     avgRating: 4.5,
     photo: tourImg02,
@@ -52,10 +52,10 @@ const tours = [
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
-      {
-        name: "jhon doe",
-        rating: 4.6,
-      },
+      // {
+      //   name: "jhon doe",
+      //   rating: 4.6,
+      // },
     ],
     avgRating: 4.5,
     photo: tourImg03,
@@ -72,7 +72,11 @@ const tours = [
     reviews: [
       {
         name: "jhon doe",
-        rating: 4.6,
+        rating: 4,
+      },
+      {
+        name: "jhon doe",
+        rating: 5,
       },
     ],
     avgRating: 4.5,

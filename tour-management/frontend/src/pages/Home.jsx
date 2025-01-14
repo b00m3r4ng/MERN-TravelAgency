@@ -77,7 +77,10 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* Featured Tours Start */}
+      {/* Featured Tours End */}
+      {/* Experience Start */}
+
+      {/* Experience End */}
     </>
   );
 };
