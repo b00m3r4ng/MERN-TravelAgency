@@ -142,6 +142,20 @@ const Home = () => {
         </Container>
       </section>
       {/* Gallery Section End */}
+      {/* Testimonial Section Start */}
+      <section>
+        <Container>
+          <Row>
+            <Col lg='12'>
+            <Subtitle subtitle={"Customers have loved.."} />
+            <h2 className="testimonial__title">
+                Great trips our clients have had
+            </h2>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      {/* Testimonial Section End */}
     </>
   );
 };
