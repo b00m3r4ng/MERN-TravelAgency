@@ -13,6 +13,7 @@ import SearchBar from "../shared/SearchBar.jsx";
 import ServiceList from "../services/ServiceList.jsx";
 import FeaturedToursList from "../components/Featured-tours/FeaturedToursList.jsx";
 import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery.jsx";
+import Testimonials from "../components/Testimonial/Testimonials.jsx";
 
 const Home = () => {
   return (
@@ -146,11 +147,14 @@ const Home = () => {
       <section>
         <Container>
           <Row>
-            <Col lg='12'>
-            <Subtitle subtitle={"Customers have loved.."} />
-            <h2 className="testimonial__title">
+            <Col lg="12">
+              <Subtitle subtitle={"Customers have loved.."} />
+              <h2 className="testimonial__title">
                 Great trips our clients have had
-            </h2>
+              </h2>
+            </Col>
+            <Col lg="12">
+              <Testimonials />
             </Col>
           </Row>
         </Container>
